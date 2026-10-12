@@ -16,6 +16,7 @@
 | GPU 透传 | MLE 候选容器 GPU 0 中 CUDA 可用，CUDA 矩阵乘法及同步成功；不是 GPU 训练吞吐测试 |
 | 超时 | 休眠候选在 2 秒限制触发超时，非零退出，state=failed，timed_out=true |
 | 公开/私有边界 | 三个 validate 报告均无私有评分；MLE 无 grading 目录，ALE/FML 无 private/test 阶段 |
+| 仓库可移动 | Git clone 到另一目录后，6 项测试通过，真实 Leaf 训练及公开验证通过 |
 | 单元测试 | 6 项通过：后端路径、验证边界、失败封装、旧目录保护等 |
 
 运行目录名：`mle-validate`、`mle-final`、`ale-validate`、`ale-final`、`fml-validate`、
