@@ -1,0 +1,14 @@
+{
+  "mle-bench": {
+    "url": "https://github.com/openai/mle-bench.git",
+    "commit": "507f92e1138bb6e40dac5c6ee7a6758e6424bf97"
+  },
+  "ale-bench": {
+    "url": "https://github.com/SakanaAI/ALE-Bench.git",
+    "commit": "3da9b12fb5d112dabb3af693d1a42031c95142bc"
+  },
+  "fml-bench": {
+    "url": "https://github.com/qrzou/FML-bench.git",
+    "commit": "d336651ebea50c622c256f02ded82b68b4451fdc"
+  }
+}

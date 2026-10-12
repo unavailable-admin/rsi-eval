@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+: "${RSI_EVAL_WORKSPACE:?Set RSI_EVAL_WORKSPACE to the prepared workspace}"
+RSI_EVAL_REPO=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+exec "$RSI_EVAL_WORKSPACE/envs/mlebench/bin/python" "$RSI_EVAL_REPO/src/suite.py" "$@"
